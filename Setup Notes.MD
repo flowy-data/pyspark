@@ -29,4 +29,8 @@ export PATH="$SPARK_HOME/bin/:$PATH"
 conda create -n spark python=3.8
 # install pyspark
 pip install pyspark
+
+#to install other packages in this repo, eg: black, jupyter lab
+pip install -f requirements.txt 
+
 ```
